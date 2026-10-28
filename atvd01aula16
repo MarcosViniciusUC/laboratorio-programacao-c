@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    char palavra[100];
+    int i, contador = 0;
+
+    printf("Digite uma palavra: ");
+    scanf("%99s", palavra);
+
+    for (i = 0; palavra[i] != '\0'; i++) {
+        contador++;
+    }
+
+    printf("Quantidade de caracteres: %d\n", contador);
+
+    return 0;
+}
